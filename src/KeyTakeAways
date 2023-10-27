@@ -1,0 +1,10 @@
+We can create singleton class if we have some shared resource that we only want one copy of. Like DB.
+Here I have crested BankOfAmerica DB with a singleton class.
+
+
+Downside of doing that is testing will be innaccurate as the production data / test data will be the same. things can
+ go wrong.
+
+
+We have to make sure when we make a jar that is going to be used by someone else to make it public. else
+they wont be able to use it.
